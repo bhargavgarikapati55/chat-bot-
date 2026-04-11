@@ -1,0 +1,20 @@
+# Gemini Chatbot Gitignore
+
+# Security
+backend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Data & Storage
+backend/chat_memory.json
+backend/*.txt
+backend/*.log
+
+# Project Specific
+scratch/
+.gemini/
+.DS_Store
+node_modules/
